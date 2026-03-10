@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: dark;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-darkGray text-pureWhite font-inter overflow-x-hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-outfit;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-darkGray;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-brandOrange/50 rounded-full hover:bg-brandOrange transition-colors;
+}
+
+.glass-effect {
+    @apply backdrop-blur-md bg-darkGray/90 border-b border-white/10;
+}
+
+.btn-primary {
+    @apply bg-brandOrange text-pureWhite px-8 py-3 rounded-full font-semibold hover:bg-brandOrange/90 transition-all active:scale-95;
+}
+
+.btn-secondary {
+    @apply border-2 border-pureWhite text-pureWhite px-8 py-3 rounded-full font-semibold hover:bg-pureWhite hover:text-darkGray transition-all active:scale-95;
+}
