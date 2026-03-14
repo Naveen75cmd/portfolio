@@ -14,7 +14,7 @@ const Hero = () => {
                 >
                     <h2 className="text-brandOrange font-semibold tracking-wider mb-4 uppercase">Welcome to my portfolio</h2>
                     <h1 className="text-5xl md:text-7xl font-bold font-outfit mb-6 leading-tight">
-                        Hi, I'm <span className="text-brandOrange underline decoration-4 underline-offset-8">Niranjan Raman</span>
+                        Hi, I'm <span className="text-brandOrange underline decoration-4 underline-offset-8">Naveen</span>
                     </h1>
                     <p className="text-2xl md:text-3xl text-pureWhite/80 mb-4 font-outfit font-medium">
                         3rd-Year B.Tech AI & Data Science Student
@@ -35,25 +35,26 @@ const Hero = () => {
                     </div>
                 </motion.div>
 
-                {/* Right - Profile Image Placeholder */}
+                {/* Right - Profile Image */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="relative flex justify-center"
                 >
-                    <div className="relative w-72 h-72 md:w-96 md:h-96">
-                        {/* Background geometric element */}
-                        <div className="absolute -inset-4 bg-brandOrange/20 rounded-2xl rotate-6 -z-10 animate-pulse"></div>
-                        <div className="absolute -inset-4 border-2 border-brandOrange/30 rounded-2xl -rotate-3 -z-10"></div>
+                    <div className="relative w-72 h-72 md:w-96 md:h-96 group">
+                        {/* Background geometric elements */}
+                        <div className="absolute -inset-4 bg-brandOrange/20 rounded-3xl rotate-6 -z-10 group-hover:rotate-12 transition-transform duration-500"></div>
+                        <div className="absolute -inset-4 border-2 border-brandOrange/30 rounded-3xl -rotate-3 -z-10 group-hover:-rotate-6 transition-transform duration-500 shadow-2xl shadow-brandOrange/10"></div>
 
                         {/* Image container */}
-                        <div className="w-full h-full bg-neutral-800 rounded-2xl overflow-hidden shadow-2xl shadow-brandOrange/20 flex items-center justify-center border border-white/10">
+                        <div className="w-full h-full bg-neutral-800 rounded-3xl overflow-hidden shadow-2xl shadow-black/50 flex items-center justify-center border border-white/10 relative">
                             <img
                                 src="/src/assets/images/Proffessional Photo.jpeg"
                                 alt="Naveen"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                             />
+                            <div className="absolute inset-0 bg-brandOrange/10 mix-blend-overlay pointer-events-none"></div>
                         </div>
                     </div>
                 </motion.div>

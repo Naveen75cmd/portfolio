@@ -54,8 +54,8 @@ const About = () => {
                             {skills.map((skill, index) => (
                                 <motion.span
                                     key={skill}
-                                    whileHover={{ scale: 1.05, borderColor: '#FF6B01' }}
-                                    className="px-5 py-2.5 bg-pureWhite/5 rounded-full border border-white/10 text-pureWhite text-sm font-medium transition-colors cursor-default"
+                                    whileHover={{ scale: 1.05, borderColor: '#FF6B01', color: '#FF6B01' }}
+                                    className="px-5 py-2.5 bg-pureWhite/10 rounded-full border border-pureWhite/20 text-pureWhite text-sm font-medium transition-all cursor-default"
                                 >
                                     {skill}
                                 </motion.span>

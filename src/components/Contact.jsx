@@ -82,7 +82,7 @@ const Contact = () => {
                                     <input
                                         type="text"
                                         placeholder="John Doe"
-                                        className="w-full bg-transparent border-b-2 border-white/10 px-1 py-3 focus:outline-none focus:border-brandOrange transition-colors placeholder:text-white/10"
+                                        className="w-full bg-transparent border-b-2 border-white/20 px-1 py-3 focus:outline-none focus:border-brandOrange transition-color placeholder:text-white/10 text-pureWhite"
                                     />
                                 </div>
                                 <div>
@@ -90,7 +90,7 @@ const Contact = () => {
                                     <input
                                         type="email"
                                         placeholder="john@example.com"
-                                        className="w-full bg-transparent border-b-2 border-white/10 px-1 py-3 focus:outline-none focus:border-brandOrange transition-colors placeholder:text-white/10"
+                                        className="w-full bg-transparent border-b-2 border-white/20 px-1 py-3 focus:outline-none focus:border-brandOrange transition-color placeholder:text-white/10 text-pureWhite"
                                     />
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                                 <input
                                     type="text"
                                     placeholder="Hello!"
-                                    className="w-full bg-transparent border-b-2 border-white/10 px-1 py-3 focus:outline-none focus:border-brandOrange transition-colors placeholder:text-white/10"
+                                    className="w-full bg-transparent border-b-2 border-white/20 px-1 py-3 focus:outline-none focus:border-brandOrange transition-color placeholder:text-white/10 text-pureWhite"
                                 />
                             </div>
                             <div>
@@ -107,7 +107,7 @@ const Contact = () => {
                                 <textarea
                                     rows="4"
                                     placeholder="I'd like to talk about..."
-                                    className="w-full bg-transparent border-b-2 border-white/10 px-1 py-3 focus:outline-none focus:border-brandOrange transition-colors placeholder:text-white/10 resize-none"
+                                    className="w-full bg-transparent border-b-2 border-white/20 px-1 py-3 focus:outline-none focus:border-brandOrange transition-color placeholder:text-white/10 resize-none text-pureWhite"
                                 ></textarea>
                             </div>
                             <button className="w-full btn-primary flex items-center justify-center gap-3 mt-4">

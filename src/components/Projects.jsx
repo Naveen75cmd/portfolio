@@ -55,7 +55,7 @@ const Projects = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             whileHover={{ y: -8 }}
-                            className="bg-darkGray/60 rounded-3xl p-8 border border-white/5 group hover:border-brandOrange/30 transition-all flex flex-col h-full"
+                            className="bg-[#2a2a2a] rounded-3xl p-8 border border-white/5 group hover:border-brandOrange/30 transition-all flex flex-col h-full hover:shadow-2xl hover:shadow-brandOrange/5"
                         >
                             <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-brandOrange/10 transition-colors">
                                 {project.icon}

@@ -9,7 +9,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
@@ -43,9 +43,9 @@ h6 {
 }
 
 .btn-primary {
-    @apply bg-brandOrange text-pureWhite px-8 py-3 rounded-full font-semibold hover:bg-brandOrange/90 transition-all active:scale-95;
+    @apply bg-brandOrange text-pureWhite px-8 py-3 rounded-full font-semibold hover:bg-brandOrange/90 transition-all active:scale-95 hover:shadow-lg hover:shadow-brandOrange/20;
 }
 
 .btn-secondary {
-    @apply border-2 border-pureWhite text-pureWhite px-8 py-3 rounded-full font-semibold hover:bg-pureWhite hover:text-darkGray transition-all active:scale-95;
+    @apply border-2 border-pureWhite text-pureWhite px-8 py-3 rounded-full font-semibold hover:bg-pureWhite hover:text-darkGray transition-all active:scale-95 hover:shadow-lg hover:shadow-white/10;
 }
